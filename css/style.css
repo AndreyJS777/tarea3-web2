@@ -1,8 +1,3 @@
-/* =========================================================
-   CENFOTRAVEL - LANDING PAGE
-   Hoja de estilos principal
-   ========================================================= */
-
 /* ---------------------------------------------------------
    VARIABLES Y CONFIGURACIÓN GENERAL
 --------------------------------------------------------- */
@@ -27,7 +22,7 @@
 
 
 /* Fuente base.
-   1rem = 16px, según la unidad REM vista en clase. */
+   1rem = 16px */
 html {
     font-size: 16px;
 }
@@ -106,7 +101,6 @@ a {
 
 /* ---------------------------------------------------------
    BOTONES INTERACTIVOS
-   Las transiciones y HOVER fueron vistos en clase.
 --------------------------------------------------------- */
 
 .btn {
@@ -145,9 +139,6 @@ a {
 
 /* ---------------------------------------------------------
    BANNER WEB FULL WIDTH
-   - background-image
-   - transparencia
-   - parallax en pantallas medianas/grandes
 --------------------------------------------------------- */
 
 .hero-banner {
@@ -630,8 +621,6 @@ a {
 
 /* =========================================================
    MEDIA QUERIES
-   Estrategia Mobile First.
-   Samsung Galaxy S8 utilizará los estilos base.
    ========================================================= */
 
 
@@ -662,7 +651,7 @@ a {
 @media (min-width: 768px) {
 
     .hero-banner {
-        /* Efecto parallax visto en clase */
+        /* Efecto parallax */
         background-attachment: fixed;
     }
 
